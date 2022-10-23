@@ -9683,3 +9683,11 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+  
+.myColor{
+  color: #491217;
+  text-decoration: solid;
+  font-weight: bold;
+  font-size:x-large;
+}
