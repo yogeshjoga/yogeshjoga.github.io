@@ -5,6 +5,7 @@
 .heroo{
     width: 100%;
     height: 950px;
+    position: relative;
 }
 .navbar{
     color: white;
@@ -22,12 +23,13 @@
     color: white;
 }
 
-
+ /* hero name */
 .content{
     text-align: center;
     padding-bottom: 10px;
 }
-h1{
+
+/* h1{
     margin:0 ;
     padding-bottom: 10px;
     display: inline-block;
@@ -39,12 +41,29 @@ h1{
     text-decoration: solid black 2px;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: rgb(28, 164, 255);
-}
-.content h1{
+} */
+
+.content p{
     padding-top: 15%;
-    font-size: 160px;
+     font-size: 120%;
     font-weight: 900;
 }
+#my_name {
+    margin: 0;
+    padding-bottom: 10px;
+    display: inline-block;
+    background-image: url(https://t4.ftcdn.net/jpg/06/19/03/25/240_F_619032582_kQq7zpqIf4PpSs7NsLWItZHdBNbbh6Dm.jpg);
+    background-size: cover;
+    background-clip: text; 
+    -webkit-background-clip: text;
+    color: transparent;
+    text-decoration: solid black 2px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(28, 164, 255);
+    position: sticky;
+}
+
+
 
 /* skills section */
 .my_skills{
@@ -85,3 +104,4 @@ h1{
 .per{
     padding-left: 30%;
 }
+
