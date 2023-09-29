@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.heroo{
+    width: 100%;
+    height: 950px;
+    position: relative;
+}
+.navbar{
+    color: white;
+    font-weight: 900;
+}
+
+.backvideo{
+    position: absolute;
+    right: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+ /* hero name */
+.content{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.name{
+    color: white;
+    text-align: center;
+    padding-top: 15%;
+}
+
+
+.content p{
+    
+     /* font-size: 920px; */
+    font-weight: 900;
+}
+
+#my_name {
+    margin: 0;
+    padding-bottom: 10px;
+    display: inline-block;
+    background-image: url(https://t4.ftcdn.net/jpg/06/19/03/25/240_F_619032582_kQq7zpqIf4PpSs7NsLWItZHdBNbbh6Dm.jpg);
+    background-size: cover;
+    background-clip: text; 
+    -webkit-background-clip: text;
+    color: transparent;
+    text-decoration: solid black 2px;
+    -webkit-text-stroke-width: .2px;
+    -webkit-text-stroke-color: rgb(28, 164, 255);
+    position: sticky;
+}
+ h1:hover{
+    font-size: 100px;
+    color: antiquewhite;
+ }
+
+
+
+/* skills section */
+.my_skills{
+    width: 100%;
+    height: 900px;
+    background-color: gray;
+}
+.skills_bar{
+    width: 40%;
+    display: inline-block; 
+    align-items: center;
+    position: relative;
+    justify-items: auto;
+}
+.subject{
+    margin-left: 60%;
+    width: 80%;
+    justify-content: flex-end;
+    display: block;
+    padding-bottom: 20px;
+}
+.progress{
+    margin: 10px;
+    width: 45%;
+    height: 10px;
+}
+.progress-bar{
+    height: 10px;
+}
+#course{
+    display: inline;
+    color: white;
+    font-weight: 600;
+}
+.course{
+    display: inline;
+}
+.per{
+    padding-left: 30%;
+}
+
